@@ -99,6 +99,27 @@ button.btn-secondary:hover{
     object-fit: cover;
     border-radius: 8px;
 }
+
+/* Uniform size for Our Latest Stock images */
+.team-members-box .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Uniform size for footer images */
+.footer_ul_amrc li .media-left img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Uniform size for customer logos */
+.customers-box img.img-fluid {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
 	padding: 10px 15px;
 	color: #4e3914;
@@ -148,7 +169,7 @@ button.btn-secondary:hover{
 .slider-main .carousel .carousel-inner .carousel-item:before{
 	content: "";
 	position: absolute;
-	background: rgba(0,0,0,0.5);
+	
 	top: 0px;
 	left: 0px;
 	width: 100%;
@@ -407,7 +428,7 @@ footer p {
 	border:2px solid #4eae3a; 
 }
 
-/* ---- All Pages CSS ---- */
+/* ---- AllPricing CSS ---- */
 
 .full-title{
 	padding: 80px 0px;
